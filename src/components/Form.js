@@ -25,7 +25,7 @@ const Form = ({create}) => {
           placeholder="Post title" 
           />
         
-        {/*Uncontrolled component*/}
+        {/*Uncontrolled component and again controlled :)*/}
         <CustomInput
           /*ref={bodyInputRef}*/ 
           value={post.body}
